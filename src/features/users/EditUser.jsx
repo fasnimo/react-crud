@@ -33,7 +33,7 @@ export function EditUser() {
       );
 
       setError(null);
-      navigate.push("/");
+      navigate("/");
     } else {
       setError("Fill in all fields");
     }

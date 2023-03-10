@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import store from "./store"
 import { fetchUsers } from './features/users/usersSlice';
 
+// Loads users when dom loads
 store.dispatch(fetchUsers())
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
