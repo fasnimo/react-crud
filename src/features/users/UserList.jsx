@@ -55,9 +55,9 @@ export function UserList() {
                     <td>{email}</td>
                     <td>
                       <button onClick={() => handleDelete(id)}>Delete</button>
-                      <Link to={`/edit-user/${id}`}>
-                        <button>Edit</button>
-                      </Link>
+                        <Link to={`/edit-user/${id}`}>
+                          <button>Edit</button>
+                        </Link>
                     </td>
                   </tr>
                 ))}
